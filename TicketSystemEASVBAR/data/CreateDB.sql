@@ -1,0 +1,13 @@
+USE master
+GO
+
+
+IF DB_ID('CSe2022A_e_7_TicketEASVEvent') IS NOT NULL
+	DROP DATABASE CSe2022A_e_7_TicketEASVEvent
+
+
+CREATE DATABASE CSe2022A_e_7_TicketEASVEvent
+GO
+
+--USE [CSe2022A_e_7_TicketEASVEvent]
+--GO
